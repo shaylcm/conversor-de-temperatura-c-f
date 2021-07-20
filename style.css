@@ -1,0 +1,47 @@
+body
+{
+	padding-top: 120px;
+    text-align: center;
+	margin:15px;
+	background-color: #E0FFFF;
+
+
+}
+
+
+
+
+.title
+{
+	font-family: arial;
+	text-transform: uppercase;
+	border: solid 2px black;
+	color: black;
+
+
+}
+#botao
+{
+	
+	font-size: 30px;
+	
+}
+#clear
+{
+	
+	font-size: 30px;
+}	
+	
+.input
+{
+  font-size: 30px;
+  border-radius: 5px;
+
+
+}
+
+footer
+{
+	padding-top: 250px;
+	color: black;
+}
