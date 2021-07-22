@@ -45,3 +45,44 @@ footer
 	padding-top: 250px;
 	color: black;
 }
+
+
+@media (max-width: 320px)
+{
+  body 
+{
+	 font-size:10px ; 
+
+}
+.title
+{
+	padding: 10px;
+	margin:20px;
+	margin-left: 25px;
+}
+h1 
+{
+  font-size: 20px;
+}
+
+.input
+{
+	font-size: 20px;
+	margin-left: 10px;
+}
+#botao
+{
+	font-size: 20px;
+	margin-left: 10px;
+}
+#clear 
+{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.image
+{
+	width: 100%;
+	
+}
+}
