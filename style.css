@@ -45,43 +45,43 @@ footer
 
 /*----------------------------------RESPONSIVIDADE --------------------------------------*/
 @media (max-width: 320px)
-	{
-	  body 
-	{
-		 font-size:10px ; 
+{
+  body 
+{
+	 font-size:10px ; 
 
-	}
-	.title
-	{
-		padding: 10px;
-		margin:20px;
-		margin-left: 25px;
-	}
-	h1 
-	{
-	  font-size: 20px;
-	}
+}
+.title
+{
+	padding: 10px;
+	margin:20px;
+	margin-left: 25px;
+}
+h1 
+{
+  font-size: 20px;
+}
 
-	.input
-	{
-		font-size: 20px;
-		margin-left: 10px;
-	}
-	#botao
-	{
-		font-size: 20px;
-		margin-left: 10px;
-	}
-	#clear 
-	{
-		font-size: 20px;
-		margin-left: 5px;
-	}
-	.image
-	{
-		width: 100%;
-
-	}
+.input
+{
+	font-size: 20px;
+	margin-left: 10px;
+}
+#botao
+{
+	font-size: 20px;
+	margin-left: 10px;
+}
+#clear 
+{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.image
+{
+	width: 100%;
+	
+}
 }
 @media (max-width: 480px)
 {
@@ -92,6 +92,7 @@ footer
   .input
   {
 	  margin-right: 15px;
+	  
   }
   #botao
   {
@@ -165,4 +166,15 @@ footer
 		margin-right: 10px;;
 	}
 }
+@media (max-width: 784px)
 
+{
+	.title
+	{
+     margin-left: 20px;
+	}
+	.input
+	{
+		font-size: 25px;;
+	}
+}
