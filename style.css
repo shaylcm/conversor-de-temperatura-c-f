@@ -8,9 +8,6 @@ body
 
 }
 
-
-
-
 .title
 {
 	font-family: arial;
@@ -46,7 +43,7 @@ footer
 	color: black;
 }
 
-
+/*----------------------------------RESPONSIVIDADE --------------------------------------*/
 @media (max-width: 320px)
 	{
 	  body 
@@ -86,3 +83,86 @@ footer
 
 	}
 }
+@media (max-width: 480px)
+{
+  .image
+  {
+     width: 100%;
+  }
+  .input
+  {
+	  margin-right: 15px;
+  }
+  #botao
+  {
+	  margin-right: 30px;
+  }
+  #clear
+  {
+	  margin-right: 20px;
+  }
+}
+@media (max-width: 540px)
+{
+	.title
+	{
+		margin-left: 2px;
+	}
+	.input
+	{
+		margin-left: 20px;
+	}
+	#botao 
+	{
+		margin-left: 20px;
+	}
+
+	.image
+	{
+		width: 100%;
+	}
+}
+@media (max-width: 280px)
+{
+	.title
+	{
+		margin-left: 20px;
+	}
+	#botao 
+	{
+		margin-right: 20px;
+	}
+	#clear
+	{
+	margin-right: 5px;
+	}
+	.input
+	{
+		margin-left: 10px;;
+	}
+}
+@media (max-width: 375px)
+{
+    .title
+	{
+      margin-left: 20px;
+	}
+	.input
+	{
+		margin-left: 10px;
+	}
+	.image
+	{
+		width: 100%;
+	}
+
+}
+@media (max-width: 360px)
+	
+{
+	#botao
+	{
+		margin-right: 10px;;
+	}
+}
+
